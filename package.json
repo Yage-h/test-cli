@@ -2,10 +2,13 @@
   "name": "test-tool-cli",
   "version": "0.0.1",
   "description": "test-tool-cli",
-  "main": "lib/index.js",
   "bin": {
     "test-tool": "bin/test-tool",
     "test-tool-init": "bin/test-tool-init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Yage-h/test-cli.git"
   },
   "bundleDependencies": false,
   "dependencies": {
