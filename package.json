@@ -1,0 +1,36 @@
+{
+  "name": "test-tool-cli",
+  "version": "0.0.1",
+  "description": "test-tool-cli",
+  "main": "lib/index.js",
+  "bin": {
+    "test-tool": "bin/test-tool",
+    "test-tool-init": "bin/test-tool-init"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "consolidate": "^0.15.0",
+    "download": "^6.2.5",
+    "download-git-repo": "^1.0.2",
+    "ejs": "^2.5.7",
+    "git-clone": "^0.1.0",
+    "inquirer": "^5.0.1",
+    "metalsmith": "^2.3.0",
+    "multimatch": "^2.1.0",
+    "ora": "^1.4.0",
+    "read-metadata": "^1.0.0",
+    "semver": "^5.5.0",
+    "user-home": "^2.0.0"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
