@@ -1,6 +1,6 @@
 {
   "name": "test-tool-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "test-tool-cli",
   "bin": {
     "test-tool": "bin/test-tool",
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git@github.com:Yage-h/test-cli.git"
   },
+  "keywords": [
+    "npm",
+    "test",
+    "tool"
+  ],
   "bundleDependencies": false,
   "dependencies": {
     "async": "^2.6.0",
