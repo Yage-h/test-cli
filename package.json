@@ -1,10 +1,10 @@
 {
-  "name": "test-tool-cli",
-  "version": "0.0.2",
-  "description": "test-tool-cli",
+  "name": "karma-autotest-cli",
+  "version": "0.0.3",
+  "description": "karma-autotest-cli",
   "bin": {
-    "test-tool": "bin/test-tool",
-    "test-tool-init": "bin/test-tool-init"
+    "karma-autotest": "bin/karma-autotest",
+    "karma-autotest-init": "bin/karma-autotest-init"
   },
   "repository": {
     "type": "git",

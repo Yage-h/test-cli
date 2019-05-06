@@ -29,7 +29,7 @@ program.on('--help', () => {
   console.log('  Examples:')
   console.log()
   console.log(chalk.gray('    # create a new project with an remote template'))
-  console.log('    $ test-tool init my-project')
+  console.log('    $ karma-autotest init my-project')
   console.log()
 })
 
@@ -53,8 +53,8 @@ process.on('exit', () => {
 })
 
 
-let template = 'test-tool-templates'
-const tmp = path.join(home, '.test-tool-templates', template)
+let template = 'karma-autotest-templates'
+const tmp = path.join(home, '.karma-autotest-templates', template)
 const rawName = program.args[0]
 const inPlace = !rawName || rawName === '.'
 const name = inPlace ? path.relative('../', process.cwd()) : rawName

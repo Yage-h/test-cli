@@ -6,7 +6,7 @@ const requiredVersion = require('../package.json').engines.node
 
 if (!semver.satisfies(process.version, requiredVersion)) {
   console.log(chalk.red(
-    `You are using Node ${process.version}, but this version of test-tool-cli ` +
+    `You are using Node ${process.version}, but this version of karma-autotest-cli ` +
     `requires Node ${requiredVersion}.\nPlease upgrade your Node version.`
   ))
   process.exit(1)
